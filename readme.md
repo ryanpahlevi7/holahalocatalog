@@ -16,6 +16,7 @@ Untuk menjalankan aplikasi ini maka ada beberapa yang perlu di persiapkkan, dian
 - Download komponen Laravel dengan perintah conposer install pada cmd saat berada di direktori projek
 - Konfigurasi .env 
 - Persiapkan database pada MySQL
+- Jalankan php artisan key:generate 
 - Jalankan php artisan migrate untuk migrasi database
 - Jalankan php artisan db:seed untuk seeding
 - Lalu jalankan php artisan storage:link untuk me link kan folder storage dengan public untuk load foto. Jika tidak menjalankan perintah tersebut maka foto tidak akan bisa di load.
